@@ -26,7 +26,7 @@ resources:
 
 
 # Kubeflow Pipelines
-- ../apps/pipeline/upstream/env/platform-agnostic-multi-user
+- ../apps/pipeline/upstream/env/irbt_aws
 # KFServing
 - ../apps/kfserving/upstream/overlays/kubeflow
 # Katib
