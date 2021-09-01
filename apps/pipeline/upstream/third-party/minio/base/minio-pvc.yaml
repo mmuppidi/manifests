@@ -3,6 +3,8 @@ kind: PersistentVolumeClaim
 metadata:
   name: minio-pvc
 spec:
+  storageClassName: efs-sc
+  volumeName: efs-control-plane-pv
   accessModes:
   - ReadWriteOnce
   resources:
